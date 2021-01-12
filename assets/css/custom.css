@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300&display=swap');
+
+body {
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: 'Megrim', cursive;
+}
+.main-wrapper {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main-theme {
+  height: 90%;
+  width: 100%;
+}
+.main-theme-half {
+  height: 50%;
+  width: 100%;
+  padding: 10px;
+}
+
+.main-theme-half--upper {
+  background-image: url(/assets/img/jack-b-LtotBngNZZU-unsplash.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-theme-half--lover {
+  background-color: black;
+}
+
+.heading {
+  color: rgba(255, 0, 0, 0.3);
+  font-family: 'Megrim', cursive;
+  font-size: calc(1.5rem + 5vw);
+}
+
+h1 span {
+  transition: 0.5s;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+h1:hover span {
+  color: rgba(255, 0, 0, 0.864);
+
+  text-shadow: 0 0 100px rgba(255, 0, 0, 0.864),
+    0 0 100px rgba(255, 0, 0, 0.864), 0 0 100px rgba(255, 0, 0, 0.864),
+    0 0 100px rgba(255, 0, 0, 0.864);
+}
+
+.quote_text,
+.about_text {
+  width: 65%;
+  color: rgb(144, 144, 144);
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Lato', sans-serif;
+  font-size: calc(0.5rem + 1.1vw);
+}
+.quote span {
+  color: brown;
+}
+.quote_source {
+  font-size: small;
+  color: rgb(144, 144, 144);
+}
+
+.contact-col {
+  padding: 50px;
+  color: rgb(144, 144, 144);
+}
+
+.email a {
+  color: brown;
+}
+
+.fas {
+  font-size: 30px;
+  color: rgb(144, 144, 144);
+  text-justify: center;
+}
