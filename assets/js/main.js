@@ -17,6 +17,10 @@ $(document).ready(function () {
       $in.fadeIn();
     });
 
+     if (($two, $one).is(':visible')) {
+       $three.hide();
+     }
+
     $three.hide();
   });
 

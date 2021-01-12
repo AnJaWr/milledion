@@ -27,7 +27,7 @@ body {
 }
 
 .main-theme-half--upper {
-  background-image: url(assets/img/jack-b-LtotBngNZZU-unsplash.jpg);
+  background-image: url('assets/img/jack-b-LtotBngNZZU-unsplash.jpg');
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
   background-size: cover;
