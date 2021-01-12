@@ -16,6 +16,8 @@ $(document).ready(function () {
     $($out1, $out2).fadeOut('slow', function () {
       $in.fadeIn();
     });
+
+    $three.hide();
   });
 
   $('#about-btn').click(function () {
