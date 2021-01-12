@@ -40,9 +40,10 @@ body {
 }
 
 .heading {
-  color: rgba(255, 0, 0, 0.3);
+  color: rgba(255, 0, 0, 0.449);
   font-family: 'Megrim', cursive;
   font-size: calc(1.5rem + 5vw);
+  font-weight: 500;
 }
 
 h1 span {
@@ -53,11 +54,10 @@ h1:hover {
   cursor: pointer;
 }
 h1:hover span {
-  color: rgba(255, 0, 0, 0.864);
+  color: rgba(255, 36, 36, 0.9);
 
-  text-shadow: 0 0 100px rgba(255, 0, 0, 0.864),
-    0 0 100px rgba(255, 0, 0, 0.864), 0 0 100px rgba(255, 0, 0, 0.864),
-    0 0 100px rgba(255, 0, 0, 0.864);
+  text-shadow: 0 0 100px rgba(255, 0, 0, 0.9), 0 0 100px rgba(255, 0, 0, 0.864),
+    0 0 100px rgba(255, 0, 0, 0.864), 0 0 100px rgba(255, 0, 0, 0.864);
 }
 
 .quote_text,
@@ -91,4 +91,15 @@ h1:hover span {
   font-size: 30px;
   color: rgb(144, 144, 144);
   text-justify: center;
+}
+
+@media (max-width: 650px) {
+  .quote_text,
+  .about_text {
+    width: 100%;
+    /* padding: 5px; */
+  }
+  .main-theme-half--upper {
+    height: 40%;
+  }
 }
