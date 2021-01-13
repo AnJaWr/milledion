@@ -87,19 +87,19 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
 
   let resizeReset = function () {
-    w = canvasBody.width = window.innerWidth;
-    h = canvasBody.height = window.innerHeight;
-    console.log(w);
+    w = canvasBody.width = 800;
+
+    h = canvasBody.height = 300;
   };
 
   const opts = {
     particleColor: 'rgb(200,200,200)',
     lineColor: 'rgb(200,200,200)',
-    particleAmount: 30,
-    defaultSpeed: 1,
+    particleAmount: 26,
+    defaultSpeed: 0.5,
     variantSpeed: 1,
-    defaultRadius: 2,
-    variantRadius: 2,
+    defaultRadius: 3,
+    variantRadius: 3,
     linkRadius: 200,
   };
 
