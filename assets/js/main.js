@@ -89,18 +89,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   let resizeReset = function () {
     w = canvasBody.width = window.innerWidth;
 
-    h = canvasBody.height = 200;
+    h = canvasBody.height = window.innerHeight * 0.5;
   };
 
   const opts = {
-    particleColor: 'rgb(190,190,190)',
-    lineColor: 'rgb(230,230,230)',
-    particleAmount: 20,
-    defaultSpeed: 0.5,
-    variantSpeed: 0.3,
+    particleColor: 'rgb(180,180,180)',
+    lineColor: 'rgb(200, 200, 200)',
+    particleAmount: 50,
+    defaultSpeed: 0.2,
+    variantSpeed: 0.7,
     defaultRadius: 2,
-    variantRadius: 1,
-    linkRadius: 120,
+    variantRadius: 0.5,
+    linkRadius: 150,
   };
 
   window.addEventListener('resize', function () {
