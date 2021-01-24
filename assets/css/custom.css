@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
 body {
-  background-image: url(../assets/img/wil-stewart-T26KCgCPsCI-unsplash.jpg);
+  background-image: url(assets/img/wil-stewart-T26KCgCPsCI-unsplash.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  background-color: black;
 }
 .navbar-brand {
   font-family: 'Megrim', cursive;
 }
 
 .main-wrapper {
-  /* background-color: rgb(128, 128, 201); */
   height: 100%;
   width: 100%;
   padding: 0;
@@ -33,7 +34,6 @@ body {
   height: 50%;
   width: 100%;
   padding: 10px;
-  /* background-color: rgb(0, 0, 0); */git 
 }
 
 .main-theme-half--upper {
@@ -52,7 +52,6 @@ body {
   font-family: 'Megrim', cursive;
   font-size: calc(1.5rem + 5vw);
   font-weight: 700;
-  /* z-index: 1000; */
 }
 
 h1 span {
@@ -63,28 +62,29 @@ h1:hover {
   cursor: pointer;
 }
 h1:hover span {
-  color: rgba(110, 157, 243, 0.721);
+  color: rgba(134, 175, 251, 0.721);
 
   text-shadow: 90px rgba(255, 0, 0, 0.4), 90px rgba(255, 0, 0, 0.4),
     90px rgba(255, 0, 0, 0.4), 90px rgba(255, 0, 0, 0.4);
 }
 
 .quote_text,
-.about_text {
+.about_text,
+.contact_text {
   width: 65%;
-  color: rgb(206, 211, 226);
+  color: rgb(127, 146, 202);
   padding: 10px;
   text-align: justify;
   text-justify: inter-word;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Reem Kufi', sans-serif;
   font-size: calc(0.3rem + 1vw);
 }
 .quote span {
   color: brown;
 }
 .quote_source {
-  font-size: small;
-  color: rgb(59, 59, 59);
+  font-size: calc(0.2rem + 0.5vw);
+  color: rgb(87, 105, 159);
 }
 
 .contact-col {
@@ -93,7 +93,10 @@ h1:hover span {
 }
 
 .email a {
-  color: brown;
+  color: rgb(87, 105, 159);
+}
+.email a:hover {
+  color: rgb(145, 161, 211);
 }
 
 .fas {
