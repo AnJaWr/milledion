@@ -1,0 +1,272 @@
+/* RESPONSIVE=================================================================================== */
+
+@media (min-device-width: 320px) and (max-device-width: 1024px) {
+  .heading h1 {
+    font-size: 1.7em;
+  }
+  .heading h2 {
+    font-size: 0.52rem;
+  }
+  .main-wrapper {
+    overflow: auto;
+  }
+
+  ul {
+    padding-left: 0.7em;
+  }
+  svg {
+    width: 80px;
+  }
+
+  .animation_quote_container {
+    font-size: 0.7em;
+    margin: 15px;
+    top: 76%;
+  }
+
+  .heading-row {
+    width: 90vw;
+  }
+
+  .m_circle.m_circle-main {
+    position: absolute;
+    top: 0.5em;
+  }
+
+  .section {
+    width: 96%;
+    padding: 0;
+    margin: 20% 0;
+    top: 50%;
+  }
+  .border-inside {
+    background-color: rgba(144, 144, 144, 0.2);
+    padding: 0.2rem 0.2rem;
+    border-radius: 8%;
+  }
+
+  .border-inside {
+    background-color: rgba(144, 144, 144, 0.2);
+    padding: 2px 5px;
+    border-radius: 8%;
+  }
+
+  .section-paragraf {
+    font-size: 0.7rem;
+    padding: 10px;
+    width: 100%;
+  }
+  .section-paragraf:nth-child(3) {
+    margin-bottom: 45px;
+  }
+
+  .section-paragraf-left {
+    padding-bottom: 0;
+  }
+  /* contact */
+  .contact {
+    height: auto;
+    margin-top: 12vh;
+    padding-bottom: 15px;
+  }
+  /* .contact .m_circle, */
+  .sup > div {
+    margin: 20px 10px 0px 25px;
+  }
+  .contact {
+    height: auto;
+    width: 90%;
+    padding: 0 20px;
+    background-size: 60%;
+  }
+
+  /* about offer */
+  .about .m_circle {
+    margin-bottom: 0px;
+  }
+  .about .section-paragraf {
+    font-size: 0.8em;
+  }
+
+  .offer_inner {
+    font-size: 1.05rem;
+    align-content: start;
+    height: initial;
+  }
+  .offer .grey {
+    height: 80vh;
+    overflow-y: hidden;
+  }
+  .offer ul li {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+  .offer h3 {
+    font-size: 1.1em;
+  }
+  .offer .close {
+    margin-bottom: 5px;
+  }
+
+  .about,
+  .offer {
+    margin-top: 5%;
+  }
+
+  .about {
+    height: 80vh;
+  }
+
+  .nav-btn {
+    text-decoration: none;
+    color: rgba(80, 97, 130, 0.7);
+    font-family: 'Megrim', cursive;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .slider_nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .s_button {
+    width: 70%;
+    margin-bottom: 5px;
+  }
+  .slider-button a {
+    font-size: 13px;
+  }
+
+  .slider-button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(67, 22, 77);
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .border-right {
+    border-right: 0;
+  }
+  .offer_three {
+    background: rgb(249, 249, 249);
+    background-image: url(../img/offer_three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+/* iphone padlet
+ */
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+  .contact {
+    transform: translate(-50%, -60%);
+    overflow: auto;
+  }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 1700px) {
+  .section-paragraf {
+    width: 100%;
+  }
+  .section-paragraf-left {
+    padding-bottom: 3%;
+  }
+}
+
+/* xlarge========================================================================== */
+
+@media (min-device-width: 1440px) {
+  .contact {
+    background-size: 70%;
+    width: 35%;
+  }
+  /* .contact:after {
+    background-size: 100%;
+  } */
+}
+@media (min-device-width: 2350px) {
+  .contact {
+    background-size: 35%, 45%;
+    width: 35%;
+  }
+  .offer ul li {
+    font-size: 1.3em;
+  }
+
+  .offer h3 {
+    font-size: 1.6em;
+  }
+
+  .slider-button {
+    font-size: 1em;
+  }
+
+  .section-paragraf-left {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  .section-paragraf-bottom {
+    margin-top: 2%;
+  }
+}
+/* x-small */
+
+@media (min-device-width: 320px) and (max-device-width: 640px) {
+  .contact:after {
+    display: none;
+  }
+}
+
+/* height ===================================================================== */
+
+@media (max-device-height: 1080px) {
+  .offer .grey {
+    min-height: 78vh;
+  }
+}
+
+/* contact comix ======================================================================== */
+@media (min-device-width: 360px) and (max-device-width: 780px) {
+  .info_owner {
+    transform: translate(10%, -180%);
+  }
+}
+
+@media (min-device-width: 781px) and (max-device-width: 900px) {
+  .info_owner {
+    transform: translate(10%, -240%);
+  }
+}
+
+@media (min-device-width: 901px) and (max-device-width: 950px) {
+  .info_owner {
+    transform: translate(10%, -250%);
+  }
+}
+
+@media (min-device-width: 951px) and (max-device-width: 1240px) {
+  .info_owner {
+    transform: translate(10%, -270%);
+  }
+}
+
+@media (min-device-width: 1241px) and (max-device-width: 1440px) {
+  .info_owner {
+    transform: translate(10%, -300%);
+  }
+}
+
+@media (min-device-width: 1440px) and (max-device-width: 2090px) {
+  .info_owner {
+    transform: translate(10%, -200%);
+  }
+}
+
+@media (min-device-width: 2091px) {
+  .info_owner {
+    transform: translate(10%, -250%);
+  }
+}
